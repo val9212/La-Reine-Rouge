@@ -41,7 +41,7 @@ bot.on('error', (e) => console.error(e));
 bot.on('warn', (e) => console.warn(e));
 // bot.on('debug', (e) => console.info(e));
 
-bot.login('NDQxMzA5MDUyMTk1MTc2NDU0.DdLwLA.5RwPJCKrHgfFkQyyh44Ll5WZVX0');
+bot.login(process.env.TOKEN)
 
 function getCmdFunction(cmd) {
     const COMMANDS = {
